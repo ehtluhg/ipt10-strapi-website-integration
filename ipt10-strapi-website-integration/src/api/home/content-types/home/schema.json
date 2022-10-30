@@ -1,0 +1,38 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "headerLogo": {
+      "type": "string",
+      "default": "http://localhost:2022/images/logo.png"
+    },
+    "heroSection": {
+      "type": "json"
+    },
+    "featuredProducts": {
+      "type": "json"
+    },
+    "latestProducts": {
+      "type": "json"
+    },
+    "testimonials": {
+      "type": "json"
+    },
+    "footerLogo": {
+      "type": "string"
+    },
+    "footerSlogan": {
+      "type": "string"
+    }
+  }
+}
